@@ -13,6 +13,37 @@ body {
   padding: 20px;
 }
 
+/* Navigation Buttons */
+.nav-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.nav-btn {
+  background: #16213a;
+  border: 1px solid #263a63;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-btn:hover {
+  background: #22345a;
+  transform: scale(1.1);
+  border-color: #4da3ff;
+}
+
+.nav-btn:active {
+  transform: scale(0.95);
+}
+
 .logo {
   font-size: 26px;
   font-weight: bold;
